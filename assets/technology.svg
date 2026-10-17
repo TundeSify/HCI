@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182729"/><stop offset="1" stop-color="#416265"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#e4f07d" stop-opacity=".65"/><stop offset="1" stop-color="#e4f07d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h720v520H0z"/>
+  <circle cx="375" cy="259" r="202" fill="url(#glow)"/>
+  <g fill="none" stroke="#dfe98c" stroke-opacity=".63" stroke-width="1.5">
+    <path d="M144 125h119l74 75h125l80-75h45M178 373h123l62-62h132l73 73h44M360 92v96m0 117v122"/>
+    <circle cx="144" cy="125" r="5" fill="#dfe98c"/><circle cx="587" cy="125" r="5" fill="#dfe98c"/>
+    <circle cx="178" cy="373" r="5" fill="#dfe98c"/><circle cx="612" cy="384" r="5" fill="#dfe98c"/>
+    <circle cx="360" cy="92" r="5" fill="#dfe98c"/><circle cx="360" cy="429" r="5" fill="#dfe98c"/>
+    <circle cx="360" cy="260" r="103"/>
+    <circle cx="360" cy="260" r="76" stroke-dasharray="3 7"/>
+  </g>
+  <path fill="#e1ed91" d="m360 201 14 43 45 16-45 15-14 44-15-44-43-15 43-16z"/>
+  <path fill="#141a1b" opacity=".75" d="M0 470h720v50H0z"/>
+</svg>

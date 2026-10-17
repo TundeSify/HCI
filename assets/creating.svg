@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#333127"/><stop offset="1" stop-color="#807258"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ece5d2"/><stop offset="1" stop-color="#c8c0a6"/></linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h720v520H0z"/>
+  <path fill="#171b19" opacity=".23" d="m0 365 720-186v341H0z"/>
+  <g transform="rotate(-9 355 262)">
+    <rect x="176" y="79" width="363" height="367" rx="3" fill="url(#paper)"/>
+    <path d="M224 148c57 5 89 42 108 90s41 67 103 81m-183 45c52-61 106-71 173-38m-84-173 22 51 50-28" fill="none" stroke="#6c7861" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="278" cy="203" r="18" fill="none" stroke="#b77558" stroke-width="5"/>
+    <path d="m438 183 36 54-72 3z" fill="none" stroke="#bf8d55" stroke-width="5"/>
+    <path d="m244 379 17-9m23 4 37-18m53-166 25 9" fill="none" stroke="#4d5752" stroke-width="3"/>
+  </g>
+  <path fill="#d8e77a" d="m591 112 8 21 22 8-22 8-8 22-8-22-22-8 22-8z"/>
+  <path fill="#141715" d="M0 486h720v34H0z"/>
+</svg>
