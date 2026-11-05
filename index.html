@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08070d">
+    <meta name="description" content="Seth Hector Vasquez — Set, also known as Aev0rix. IT student, creative thinker, gamer, and aspiring project manager in Cebu City.">
+    <title>Seth Hector Vasquez — Set / Aev0rix</title>
+    <link rel="icon" type="image/jpeg" href="IMG/favicon%20profile.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cube.css">
+    <script src="scripts/content.js" defer></script>
+    <script src="scripts/cube.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#main" aria-label="Home"><span id="cube-name">SET</span><span>.</span></a>
+      <div class="header-status"><span class="status-dot" aria-hidden="true"></span><span id="hero-location">Cebu City, Philippines</span></div>
+      <a class="top-link" id="top-contact" href="mailto:sethvasquez.2005@gmail.com">LET’S TALK ↗</a>
+    </header>
+
+    <main class="portfolio" id="main">
+      <section class="intro" aria-labelledby="hero-title">
+        <p class="eyebrow"><span id="hero-alias">Aev0rix</span> · IT STUDENT & CREATIVE THINKER</p>
+        <h1 id="hero-title">Ideas in<br><em>every dimension.</em></h1>
+        <p class="intro-copy">I’m <strong id="hero-name">Seth Hector Vasquez</strong> — <span id="hero-intro">an IT student, creative thinker, and gamer learning to turn ideas into thoughtful work.</span> Spin the cube and explore my work, story, and goals.</p>
+        <p class="hint"><span class="hint-icon" aria-hidden="true">↗</span> DRAG TO SPIN · CLICK A FACE TO EXPLORE</p>
+        <div class="meta">
+          <div><small>BASED IN</small><strong>Cebu City, Philippines</strong></div>
+          <div><small>FOCUS</small><strong>IT · Creative work · Project management</strong></div>
+        </div>
+      </section>
+
+      <section class="stage" aria-label="Interactive 3D portfolio cube">
+        <div class="glow" aria-hidden="true"></div>
+        <div class="floor-shadow" aria-hidden="true"></div>
+        <div class="cube" id="cube" role="group" aria-label="Six interactive portfolio faces"></div>
+        <nav class="face-nav" id="face-navigation" aria-label="Choose a cube face">
+          <button class="turn" type="button" data-turn="left" aria-label="Turn cube left">↶</button>
+          <span class="count" id="face-count" aria-live="polite">01 / 06</span>
+          <button class="turn" type="button" data-turn="right" aria-label="Turn cube right">↷</button>
+        </nav>
+      </section>
+
+      <footer class="site-footer">
+        <span>© <span id="current-year"></span> <span id="footer-name">Seth Hector Vasquez</span> — PORTFOLIO</span>
+        <span class="footer-right">A SMALL WORLD OF BIG IDEAS&nbsp;&nbsp; ✳</span>
+      </footer>
+    </main>
+
+    <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-lead" aria-hidden="true">
+      <article class="modal" id="modal">
+        <button class="close" id="modal-close" type="button" aria-label="Close details">×</button>
+        <div class="modal-kicker" id="modal-kicker"></div>
+        <h2 id="modal-title"></h2>
+        <p class="modal-lead" id="modal-lead"></p>
+        <div id="modal-content"></div>
+      </article>
+    </div>
+  </body>
+</html>
